@@ -13,6 +13,7 @@
 		5333AA051F764DDB00353EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5333AA031F764DDB00353EB1 /* Main.storyboard */; };
 		5333AA071F764DDB00353EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5333AA061F764DDB00353EB1 /* Assets.xcassets */; };
 		5333AA0A1F764DDB00353EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5333AA081F764DDB00353EB1 /* LaunchScreen.storyboard */; };
+		5333AA121F7651FA00353EB1 /* SecretNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333AA111F7651FA00353EB1 /* SecretNumberViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5333AA061F764DDB00353EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5333AA091F764DDB00353EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5333AA0B1F764DDB00353EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5333AA111F7651FA00353EB1 /* SecretNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretNumberViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5333A9FF1F764DDB00353EB1 /* FirstViewController.swift */,
 				5333AA011F764DDB00353EB1 /* SecondViewController.swift */,
 				5333AA031F764DDB00353EB1 /* Main.storyboard */,
+				5333AA111F7651FA00353EB1 /* SecretNumberViewController.swift */,
 				5333AA061F764DDB00353EB1 /* Assets.xcassets */,
 				5333AA081F764DDB00353EB1 /* LaunchScreen.storyboard */,
 				5333AA0B1F764DDB00353EB1 /* Info.plist */,
@@ -142,6 +145,7 @@
 				5333AA021F764DDB00353EB1 /* SecondViewController.swift in Sources */,
 				5333A9FE1F764DDB00353EB1 /* AppDelegate.swift in Sources */,
 				5333AA001F764DDB00353EB1 /* FirstViewController.swift in Sources */,
+				5333AA121F7651FA00353EB1 /* SecretNumberViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
