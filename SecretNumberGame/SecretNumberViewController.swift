@@ -22,6 +22,8 @@ class SecretNumberViewController: UIViewController {
     
     @IBOutlet weak var feedbackLabel: UILabel!
 
+    @IBOutlet weak var feedbackImage: UIImageView!
+    
     var currentNumber: Int?
     
     var numberOfGuesses = 0
@@ -48,13 +50,16 @@ class SecretNumberViewController: UIViewController {
         let guess = Int(guessLabel.text!)
         if let number = currentNumber {
             if guess == number {
+                feedbackImage.image = UIImage(named: "correct")
                 feedbackLabel.text = "Correct! You guessed the number!"
                 guessButton.isHidden = true;
                 nextButton.isHidden = false;
             } else if guess! < number {
+                feedbackImage.image = UIImage(named: "incorrect")
                 feedbackLabel.text = "Too low! Guess a higher number"
             } else {
                 // Guess was too high
+                feedbackImage.image = UIImage(named: "incorrect")
                 feedbackLabel.text = "Too high! Guess a lower number"
             }
         }
@@ -72,6 +77,7 @@ class SecretNumberViewController: UIViewController {
         guessButton.isHidden = false
         numberOfGuesses = 0
         numberOfGuessesLabel.text = "0"
+        feedbackImage.image = nil
     }
     
     
